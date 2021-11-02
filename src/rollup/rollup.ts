@@ -26,6 +26,8 @@ import {
 } from './types';
 
 export default function rollup(rawInputOptions: GenericConfigObject): Promise<RollupBuild> {
+	debugger;
+	console.log('hello rollup!');
 	return rollupInternal(rawInputOptions, null);
 }
 
